@@ -1,0 +1,8 @@
+C:\Users\luchi\source\repos\Minesweeper.Site\Minesweeper.Site\obj\Release\net6.0\PubTmp\Out\Minesweeper.Site.exe
+C:\Users\luchi\source\repos\Minesweeper.Site\Minesweeper.Site\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+C:\Users\luchi\source\repos\Minesweeper.Site\Minesweeper.Site\obj\Release\net6.0\PubTmp\Out\appsettings.json
+C:\Users\luchi\source\repos\Minesweeper.Site\Minesweeper.Site\obj\Release\net6.0\PubTmp\Out\libman.json
+C:\Users\luchi\source\repos\Minesweeper.Site\Minesweeper.Site\obj\Release\net6.0\PubTmp\Out\Minesweeper.Site.dll
+C:\Users\luchi\source\repos\Minesweeper.Site\Minesweeper.Site\obj\Release\net6.0\PubTmp\Out\Minesweeper.Site.deps.json
+C:\Users\luchi\source\repos\Minesweeper.Site\Minesweeper.Site\obj\Release\net6.0\PubTmp\Out\Minesweeper.Site.runtimeconfig.json
+C:\Users\luchi\source\repos\Minesweeper.Site\Minesweeper.Site\obj\Release\net6.0\PubTmp\Out\Minesweeper.Site.pdb

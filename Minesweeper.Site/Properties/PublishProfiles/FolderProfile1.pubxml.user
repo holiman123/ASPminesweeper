@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>D:\mineSites\minesweeper</_PublishTargetUrl>
+    <History>True|2023-01-06T06:42:19.6220868Z;True|2023-01-05T12:55:54.0678758+02:00;False|2023-01-05T12:55:32.1349421+02:00;True|2023-01-04T06:27:46.9492910+02:00;False|2023-01-04T06:27:13.8637013+02:00;False|2023-01-04T06:26:48.7565023+02:00;True|2023-01-04T06:25:07.2087248+02:00;True|2023-01-03T07:16:05.0261069+02:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>

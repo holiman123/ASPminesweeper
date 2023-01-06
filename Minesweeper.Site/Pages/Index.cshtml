@@ -1,0 +1,53 @@
+﻿@page
+@model Minesweeper.Site.Pages.IndexModel
+@{
+}
+
+@*<style>
+	.cell {
+		display: flex;
+		width: 1.5rem;
+		height: 1.5rem;
+	}
+	#field {
+		display: flex;
+		flex-wrap: wrap;
+		background-color: darkred;
+	}
+</style>*@
+
+<link type="text/css" rel="stylesheet" href="~/css/site.css">
+
+<body id="bodyId">
+	<header id="inputHeader">
+		<input type = "number" id="sizeXinput" class="input" placeholder="X"/>
+		<input type = "number" id="sizeYinput" class="input" placeholder="Y"/>
+		<input type = "number" id="bombsCountInput" class="input" placeholder="bombs"/>
+		<input type = "button" id="startBtn" value="Start game!"/>
+		<div id="loadDiv">
+			<input type="text" id="nameInput" class="input" placeholder="Name"></input>
+			<input type="button" id="loadBtn" value="Load"></input>
+		</div>
+	</header>
+
+		<div class = "checkDiv">
+			<input type = "checkbox" id="soundCheckBox" checked></input>
+			<label for="soundCheckBox">Sound</label>
+		</div>
+
+		<div class = "checkDiv">
+			<input type = "checkbox" id= "flagCheckID"></input>
+			<label for="flagCheckID">Place flag</label>
+		</div>
+
+	<div id="bodyHaha">
+		<div id="field"></div>
+		<div id="div1">
+			<div id="flagsCountDiv"></div>
+			<div id="message"></div>
+		</div>
+	</div>
+</body>
+
+<script src="~/js/signalr/dist/browser/signalr.js"></script>
+<script src="~/js/gameSettings.js"></script>

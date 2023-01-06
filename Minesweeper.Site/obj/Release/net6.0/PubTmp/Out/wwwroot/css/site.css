@@ -1,0 +1,174 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.checkDiv {
+    display: flex;
+    align-items: center;
+}
+
+.input {
+    font-family: Monospace;
+    border: solid indigo;
+    width: 5rem;
+    font-size: 1rem;
+    margin-left: 0.5rem;
+    height: 2.3rem;
+    padding-left: 0.5rem;
+    border-radius: 0.6rem;
+}
+
+input[type=button] {
+    border: none;
+    border-radius: 0.6rem;
+    margin-left: 3rem;
+    width: 8rem;
+    height: 2.3rem;
+    font-family: Monospace;
+    font-size: 1rem;
+}
+input[type=button]:hover {
+    background-color: darkgray;
+}
+
+input[type=checkbox] {
+    width: 1.2rem;
+    height: 1.2rem;
+    margin-left: 1rem;
+    padding-bottom: 1rem;
+}
+
+label {
+    font-family: Monospace;
+    font-size: 1rem;
+    color: whitesmoke;
+}
+
+#bodyId {
+    background-color: indigo;
+}
+
+.cell {
+    display: flex;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+#field {
+    margin-top: 3rem;
+    position: relative;
+    overflow: hidden;
+    border-radius: 1.1rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: darkred;
+}
+
+#div2 {
+    pointer-events: none;
+    z-index: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-shadow: inset 2rem 2rem 5rem 0rem rgba(0,0,0,0.25);
+}
+
+#bodyHaha {
+    
+}
+
+.closedCell0 {
+    background-color: forestgreen;
+    display: flex;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.closedCell1 {
+    background-color: green;
+    display: flex;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.openCell {
+    font-family: Monospace;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: midnightblue;
+    justify-content: center;
+    background-color: bisque;
+    display: flex;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.detonatedCell {
+    background-color: darkred;
+    display: flex;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.flagCell0 {
+    background-color: forestgreen;
+    /*background-image: url(flag.svg);*/
+    background-size: contain;
+    display: flex;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.flagCell1 {
+    background-color: green;
+    /*background-image: url(flag.svg);*/
+    background-size: contain;
+    display: flex;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.flagCell0 div {
+    margin: auto;
+    width: 50%;
+    height: 50%;
+    background-color: orangered;
+}
+.flagCell1 div {
+    margin: auto;
+    width: 50%;
+    height: 50%;
+    background-color: orangered;
+}
+
+#flagsCountDiv {
+    text-align:center;
+    font-family: Monospace;
+    font-size: 1.4rem;
+    color: whitesmoke;
+    margin: auto;
+}
+
+#message {
+    text-align: center;
+    padding-top: 1rem;
+    font-family: Monospace;
+    font-size: 1.4rem;
+    color: whitesmoke;
+    margin: auto;
+}
+
+#div1 {
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
